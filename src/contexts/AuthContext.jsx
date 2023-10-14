@@ -8,7 +8,7 @@ const AuthProvider = ({ children }) => {
 
   const login = (data) => {
     setLoggedIn(true);
-    setUser(data);
+    setUser(data.user);
   };
 
   const values = {

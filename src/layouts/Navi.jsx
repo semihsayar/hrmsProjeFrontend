@@ -70,18 +70,18 @@ export default function Navi() {
                         </>
                       )}
 
-                      {loggedIn && 
-                      <>
+                      {loggedIn && (
+                        <>
                           <Link to={"/profile"} className="btn head-btn1">
                             Profil
                           </Link>
-                        
-                      </>}
+                        </>
+                      )}
                     </div>
                   </div>
                 </div>
                 <div className="col-12">
-                  <div className="mobile_menu d-block d-lg-none"></div>
+                  <div className="mobile menu d-block d-lg-none"></div>
                 </div>
               </div>
             </div>

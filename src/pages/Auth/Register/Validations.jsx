@@ -15,9 +15,7 @@ const validations = yup.object().shape({
     .string()
     .oneOf([yup.ref("password")], "Parolalar uyuşmuyor.")
     .required(),
-    identityNumber: yup
-    .string()
-    .required()
+  identityNumber: yup.string().required(),
 });
 
 export default validations;
